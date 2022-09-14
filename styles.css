@@ -12508,6 +12508,7 @@ fieldset:disabled .btn {
 .navbar-brand {
   font-size: 2rem;
   color: black;
+  font-family: 'Lobster', cursive;
 }
 
 .navbar-brand:hover {
@@ -12517,6 +12518,7 @@ fieldset:disabled .btn {
 .nav-link {
   margin: 0px 10px;
   color: black;
+  font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
 }
 
@@ -12529,6 +12531,43 @@ fieldset:disabled .btn {
   width: 80%;
   border-radius: 60px;
   outline: none;
+  margin-right: -35px;
+  font-family: 'Rubik', sans-serif;
   border: 2px solid #f81a5c;
+}
+
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background-color: #f81a5c;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.main {
+  background-image: url("./assets/earrings.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100%;
+}
+
+.main h1, .main .h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.main .btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #f81a5c;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
 }
 /*# sourceMappingURL=styles.css.map */
