@@ -40,7 +40,7 @@ text-transform: uppercase;
     outline: none;
     margin-right: -35px;
     font-family: 'Rubik', sans-serif;
-    border: 2px solid rgb(248, 26, 92);
+    background-color: 3px solid rgb(129,216,208);
 }
 
 .btn0{
@@ -48,7 +48,7 @@ text-transform: uppercase;
     width: 40%;
     outline: none;
     border: none;
-    background-color: rgb(248, 26, 92);
+    background-color: rgb(129,216,208);
     color: white;
     font-weight: 700;
     border-radius: 60px;
@@ -63,32 +63,52 @@ text-transform: uppercase;
     height: 100vh;
     width: 100%;
 
-    h1{
-        font-size: 4rem;
-        font-weight: 700;
+    .description{
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        margin: auto;
+        padding: 2em;
+    
+        h1{
+            font-size: 4rem;
+            font-weight: 700;
+            font-family: 'Lobster', cursive;
+        }
+    }
+
+    .btn1{
+        height: 45px;
+        border: none;
+        outline: none;
+        background-color: rgb(129,216,208);
+        color: white;
+        font-weight: 600;
+        border-radius: 60px;
+    
+        &:hover{
+            background-color: rgba(129, 216, 207, 0.63);
+            transition: 0.5s;
+        }
     }
 
     
 }
 
-.btn1{
-    height: 45px;
-    width: 35%;
-    border: none;
-    outline: none;
-    background-color: rgb(248, 26, 92);
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
 
-    &:hover{
-        background-color: rgb(194, 26, 76);
-        transition: 0.5s;
-    }
-}
+
+// Store
+
 
 h1{
     font-weight: 700;
+}
+
+.text-green {
+    color: rgb(129,216,208);
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+   
 }
 
 .card:hover{
@@ -98,3 +118,42 @@ h1{
     transition: 0.5s;
 }
 
+.btn2{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(129,216,208);
+    color: white;
+    font-weight: 600;
+    border-radius: 60px;
+    margin-top: 20px;
+
+    &:hover{
+        background-color: rgba(129, 216, 207, 0.63);
+        transition: 0.5s;
+    }
+}
+
+// Contact
+
+.contact-row{
+    margin-bottom: 30px;
+}
+
+.button-area{
+    display: flex;
+    justify-content: center;
+}
+
+
+// Footer
+
+footer {
+    background-color: rgb(129,216,208);
+    margin-top: 20px;
+
+    a{
+       margin-bottom: 20px;
+    }
+}

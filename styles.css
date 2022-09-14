@@ -12533,7 +12533,7 @@ fieldset:disabled .btn {
   outline: none;
   margin-right: -35px;
   font-family: 'Rubik', sans-serif;
-  border: 2px solid #f81a5c;
+  background-color: 3px solid #81d8d0;
 }
 
 .btn0 {
@@ -12541,7 +12541,7 @@ fieldset:disabled .btn {
   width: 40%;
   outline: none;
   border: none;
-  background-color: #f81a5c;
+  background-color: #81d8d0;
   color: white;
   font-weight: 700;
   border-radius: 60px;
@@ -12555,24 +12555,32 @@ fieldset:disabled .btn {
   width: 100%;
 }
 
-.main h1, .main .h1 {
-  font-size: 4rem;
-  font-weight: 700;
+.main .description {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  margin: auto;
+  padding: 2em;
 }
 
-.btn1 {
+.main .description h1, .main .description .h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Lobster', cursive;
+}
+
+.main .btn1 {
   height: 45px;
-  width: 35%;
   border: none;
   outline: none;
-  background-color: #f81a5c;
+  background-color: #81d8d0;
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   border-radius: 60px;
 }
 
-.btn1:hover {
-  background-color: #c21a4c;
+.main .btn1:hover {
+  background-color: rgba(129, 216, 207, 0.63);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -12581,11 +12589,57 @@ h1, .h1 {
   font-weight: 700;
 }
 
+.text-green {
+  color: #81d8d0;
+  font-weight: 600;
+  font-family: 'Lobster', cursive;
+}
+
 .card:hover {
   box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.btn2 {
+  height: 45px;
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: #81d8d0;
+  color: white;
+  font-weight: 600;
+  border-radius: 60px;
+  margin-top: 20px;
+}
+
+.btn2:hover {
+  background-color: rgba(129, 216, 207, 0.63);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact-row {
+  margin-bottom: 30px;
+}
+
+.button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  background-color: #81d8d0;
+  margin-top: 20px;
+}
+
+footer a {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
