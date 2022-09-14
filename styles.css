@@ -12520,6 +12520,7 @@ fieldset:disabled .btn {
   color: black;
   font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
+  font-size: 1.10rem;
 }
 
 .nav-link:hover {
