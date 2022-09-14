@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// Navbar
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+
+    &:hover {
+color: black;
+    }
+}
+
+// Navbar links
+
+.nav-link{
+   margin: 0px 10px; 
+color: black;
+text-transform: uppercase;
+
+&:hover{
+    color: black;
+}
+}
+
+// Navbar search
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+}
