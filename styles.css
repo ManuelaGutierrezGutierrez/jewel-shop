@@ -12560,7 +12560,7 @@ fieldset:disabled .btn {
   font-weight: 700;
 }
 
-.main .btn1 {
+.btn1 {
   height: 45px;
   width: 35%;
   border: none;
@@ -12569,5 +12569,23 @@ fieldset:disabled .btn {
   color: white;
   font-weight: 700;
   border-radius: 60px;
+}
+
+.btn1:hover {
+  background-color: #c21a4c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+h1, .h1 {
+  font-weight: 700;
+}
+
+.card:hover {
+  box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=styles.css.map */
